@@ -4,12 +4,13 @@ import PackageDescription
 let package = Package(
     name: "AccuTerraSDK",
     platforms: [
-        .iOS(.v14)
+        .iOS(.v14),
+        .macOS(.v10_15)
     ],
     products: [
         .library(
             name: "AccuTerraSDK",
-            targets: ["AccuTerraSDK"]
+            targets: ["AccuTerraSDKWrapper"]
         )
     ],
     dependencies: [
@@ -23,6 +24,20 @@ let package = Package(
         .package(url: "https://github.com/neotreks/sqlcipher-distribution", exact: "4.5.7")
     ],
     targets: [
+        .target(
+            name: "AccuTerraSDKWrapper",
+            dependencies: [
+                .target(name: "AccuTerraSDK"),
+                .product(name: "GRDB", package: "GRDB.swift"),
+                .product(name: "Alamofire", package: "Alamofire"),
+                .product(name: "GzipLib", package: "GzipLib"),
+                .product(name: "Turf", package: "turf-swift"),
+                .product(name: "MapLibre", package: "maplibre-ios-distribution"),
+                .product(name: "ReachabilityLib", package: "Reachability.swift"),
+                .product(name: "ZipArchive", package: "ZipArchive"),
+                .product(name: "AccuTerraSQLCipher", package: "sqlcipher-distribution")
+            ]
+        ),
         .binaryTarget(
             name: "AccuTerraSDK",
             url: "https://distribution.accuterra.com/com/accuterra/accuterra-ios-sdk/0.30.0/AccuTerraSDK.zip",
