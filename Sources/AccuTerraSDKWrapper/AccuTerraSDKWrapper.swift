@@ -10,34 +10,7 @@ import Foundation
 
 // Import all dependencies to ensure they are properly linked and available to the binary target
 // These imports ensure the modules are linked into the final app
-#if canImport(GRDB)
-import GRDB
-#endif
-
-#if canImport(Alamofire)
-import Alamofire
-#endif
-
-#if canImport(Gzip)
-import Gzip
-#endif
-
-#if canImport(Turf)
-import Turf
-#endif
 
 #if canImport(MapLibre)
 import MapLibre
-#endif
-
-#if canImport(Reachability)
-import Reachability
-#endif
-
-#if canImport(ZipArchive)
-import ZipArchive
-#endif
-
-#if canImport(AccuTerraSQLCipher)
-import AccuTerraSQLCipher
 #endif

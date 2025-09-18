@@ -1,0 +1,25 @@
+{
+  "version": 8,
+  "sources": {
+    "here-satellite": {
+      "type": "raster",
+      "tiles": ["https://maps.hereapi.com/v3/base/mc/{z}/{x}/{y}/jpeg?style=satellite.day&size=512"],
+      "attribution": "<a href=\"https://www.here.com\" target=\"_blank\">Here Technologies</a>",
+      "tileSize": 256
+    }
+  },
+  "glyphs":"https://maps.accuterra.com/v1/fonts/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+        "id": "background",
+        "type": "background",
+        "paint": {"background-color": "rgb(4,7,14)"}
+    },
+    {
+      "id": "here-satellite",
+      "type": "raster",
+      "source": "here-satellite",
+      "paint": {}
+    }
+  ]
+}
