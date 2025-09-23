@@ -14,3 +14,11 @@ import Foundation
 #if canImport(MapLibre)
 import MapLibre
 #endif
+
+#if canImport(Turf)
+import Turf
+#endif
+
+#if canImport(ReachabilitySwift)
+import ReachabilitySwift
+#endif
