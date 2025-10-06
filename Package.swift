@@ -28,7 +28,7 @@ let package = Package(
                 .product(name: "ReachabilitySwift", package: "ReachabilitySwift"),
             ],
             resources: [
-                .process("AccuTerraSDK_AccuTerraSDKWrapper.bundle"),
+                .process("AccuTerraSDK_AccuTerraSDK.bundle"),
                 .process("PrivacyInfo.xcprivacy")
             ]
         ),
