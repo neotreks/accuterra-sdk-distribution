@@ -14,14 +14,9 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/neotreks/GRDB.swift", exact: "7.6.1"),
-        .package(url: "https://github.com/Alamofire/Alamofire", exact: "5.10.2"),
-        .package(url: "https://github.com/1024jp/GzipSwift", exact: "6.1.0"),
         .package(url: "https://github.com/neotreks/turf-swift", exact: "4.0.0"),
         .package(url: "https://github.com/neotreks/maplibre-ios-distribution", exact: "6.18.1"),
         .package(url: "https://github.com/neotreks/ReachabilitySwift", exact: "5.2.4"),
-        .package(url: "https://github.com/ZipArchive/ZipArchive", exact: "2.4.3"),
-        .package(url: "https://github.com/neotreks/sqlcipher-distribution", exact: "4.5.7")
     ],
     targets: [
         .target(
