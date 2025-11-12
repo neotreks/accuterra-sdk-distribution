@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/neotreks/turf-swift", exact: "4.0.0"),
-        .package(url: "https://github.com/neotreks/maplibre-ios-distribution", exact: "6.18.1"),
+        .package(url: "https://github.com/neotreks/maplibre-ios-distribution", exact: "6.18.2"),
         .package(url: "https://github.com/neotreks/ReachabilitySwift", exact: "5.2.4"),
     ],
     targets: [
@@ -34,8 +34,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AccuTerraSDK",
-            url: "https://distribution.accuterra.com/com/accuterra/accuterra-ios-sdk/0.30.1/AccuTerraSDK.zip",
-            checksum: "df975e5192a83d3c7ba6775fc9284b74ab49f4f77985463e3d42c5de7c4bdcde"
+            url: "https://distribution.accuterra.com/com/accuterra/accuterra-ios-sdk/0.30.2/AccuTerraSDK.zip",
+            checksum: "58a9aec81eb1735de14dce158ad482920a5db4737e64dc1ed35577d9d527ce05"
         )
     ]
 )
