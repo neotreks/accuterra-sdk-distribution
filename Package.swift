@@ -14,7 +14,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/neotreks/turf-swift", exact: "4.0.0"),
+        .package(url: "https://github.com/mapbox/turf-swift", exact: "4.0.0"),
         .package(url: "https://github.com/neotreks/maplibre-ios-distribution", exact: "6.18.2"),
         .package(url: "https://github.com/neotreks/ReachabilitySwift", exact: "5.2.4"),
     ],
