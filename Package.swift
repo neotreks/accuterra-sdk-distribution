@@ -35,7 +35,7 @@ let package = Package(
         .binaryTarget(
             name: "AccuTerraSDK",
             url: "https://distribution.accuterra.com/com/accuterra/accuterra-ios-sdk/0.30.3/AccuTerraSDK.zip",
-            checksum: "fd1c3f1122e6cabf64e756118ffd003acc9a608ce7da46bae21437e4a4fc3a30"
+            checksum: "1f72477f3469845c54a57419b5cc3616f4506c7e03e048d9a1c712cf675b33a3"
         )
     ]
 )
