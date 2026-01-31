@@ -11,6 +11,10 @@ import Foundation
 // Import all dependencies to ensure they are properly linked and available to the binary target
 // These imports ensure the modules are linked into the final app
 
+#if canImport(MapLibre)
+import MapLibre
+#endif
+
 #if canImport(Turf)
 import Turf
 #endif
