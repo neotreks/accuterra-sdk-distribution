@@ -44,8 +44,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AccuTerraSDKCore",
-            url: "https://distribution.accuterra.com/com/accuterra/accuterra-ios-sdk-core/0.40.2/AccuTerraSDKCore.zip",
-            checksum: "5db4260fb11be063a21a6c4de04ff02a2238200fc7df739606af7110ceb67fe4"
+            url: "https://distribution.accuterra.com/com/accuterra/accuterra-ios-sdk-core/0.40.3/AccuTerraSDKCore.zip",
+            checksum: "97203d562bbfd8bc3021b13475ce7c164fdfc436dce079ea9433200941aa4aca"
         ),
         .binaryTarget(
             name: "AccuTerraSDK",

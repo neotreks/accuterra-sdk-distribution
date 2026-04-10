@@ -1,6 +1,6 @@
 Pod::Spec.new do |m|
 
-  version = '0.40.2'
+  version = '0.40.3'
 
   m.name    = 'AccuTerraSDKCore'
   m.version = version
