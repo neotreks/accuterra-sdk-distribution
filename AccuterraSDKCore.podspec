@@ -1,6 +1,6 @@
 Pod::Spec.new do |m|
 
-  version = '0.40.3'
+  version = '0.41.0'
 
   m.name    = 'AccuTerraSDKCore'
   m.version = version
@@ -17,7 +17,7 @@ Pod::Spec.new do |m|
   }
 
   m.platform              = :ios
-  m.ios.deployment_target = '14.0'
+  m.ios.deployment_target = '15.0'
 
   m.dependency 'ReachabilitySwift', '5.2.4'
   m.dependency 'Turf', '4.0.0'

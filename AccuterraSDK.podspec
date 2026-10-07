@@ -17,7 +17,7 @@ Pod::Spec.new do |m|
   }
 
   m.platform              = :ios
-  m.ios.deployment_target = '14.0'
+  m.ios.deployment_target = '15.0'
 
   m.dependency 'AccuTerraSDKCore', "#{version}"
   m.dependency 'AccuTerra-MapLibre-iOS-SDK', '6.18.2'

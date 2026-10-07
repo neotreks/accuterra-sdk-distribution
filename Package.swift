@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "AccuTerraSDK",
     platforms: [
-        .iOS(.v14),
+        .iOS(.v15),
         .macOS(.v10_15)
     ],
     products: [
@@ -44,8 +44,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AccuTerraSDKCore",
-            url: "https://distribution.accuterra.com/com/accuterra/accuterra-ios-sdk-core/0.40.3/AccuTerraSDKCore.zip",
-            checksum: "97203d562bbfd8bc3021b13475ce7c164fdfc436dce079ea9433200941aa4aca"
+            url: "https://distribution.accuterra.com/com/accuterra/accuterra-ios-sdk-core/0.41.0/AccuTerraSDKCore.zip",
+            checksum: "8a3577aa02af6ad230e9bee9901c9a5fa6ccd1543e91d25dd2daa92d91b58da3"
         ),
         .binaryTarget(
             name: "AccuTerraSDK",
